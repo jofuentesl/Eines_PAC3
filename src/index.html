@@ -4,35 +4,65 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" href="/assets/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
     <title>Eines 2 - PAC3 - Jordi Fuentes</title>
   </head>
-  <body class="h-screen bg-red-400 flex flex-col justify-between">
-    <header class="flex bg-green-300 justify-between">
+  <body class="h-screen flex flex-col justify-between items-center">
+    <header class="flex justify-between max-w-5xl w-full mt-4">
         <img class="h-20 w-20" src="assets/images/roots_sessions.svg"/>
-        <nav class="bg-gray-200 flex items-center">
-        <a class="px-4" href="#">Inicio</a>
-        <a class="px-4" href="#">Grupos</a>
-        <a class="px-4" href="#">Noticias</a>
-        <a class="pl-4" href="#">Contacto</a>
+        <nav class="flex items-center ">
+        <a class="px-4 hover:text-yellow-500 uppercase" href="#">Inicio</a>
+        <a class="px-4 hover:text-yellow-500 uppercase" href="#">Grupos</a>
+        <a class="px-4 hover:text-yellow-500 uppercase" href="#">Noticias</a>
+        <a class="pl-4 hover:text-yellow-500 uppercase" href="#">Contacto</a>
         </nav>
       </div>
     </header>
-    <main>
-      <div class="flex-col justify-center">
-        <div class="bg-yellow-800 w-16 h-16">1</div>
-        <div class="bg-red-800 w-16 h-16">2</div>
-        <div class="bg-green-800 w-16 h-16">3</div> 
+    <main class="h-full max-w-5xl w-full">
+      <div class="flex flex-col justify-between h-full">
+        <div class="flex justify-between festival__place mt-6">
+          <div class="festival__place--style">
+            <p>Barcelona</p>
+          </div>
+          <div class="festival__place--style">
+            <p>08 de Diciembre</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center w-full block__festival block__festival__name">
+          <div class="festival__name">
+            <h1 class="festival__name--style tracking-widest"><i class="fab fa-redhat font__awesome--style"></i>reggea festival</h1>
+          </div>
+          <div class="festival__groups mt-6">
+            <p class="festival__group__ska festival__groups--style">The skatalites</p>
+          </div>
+          <div class="festival__groups mt-6">
+            <p class="festival__group__toots festival__groups--style">Toots and the Maytals</p>
+          </div>
+          <div class="festival__groups mt-6">
+            <p class="festival__group__lauren festival__groups--style">lauren aitken</p>
+          </div>
+        </div>
+        <div class="flex justify-between w-full festival__timetable--style mb-4">
+          <div>
+           <p><i class="fas fa-clock font__awesome--style"></i>A partir de las 21:00h</p>
+          </div>
+          <div>
+            <p><i class="fas fa-map-marker-alt font__awesome--style"></i>Pavellón Vall d'Hebron </p>
+          </div>
+        </div> 
       </div> 
     </main>
-    <footer class="flex justify-between bg-gray-300 text-white">
+    <div class="flex justify-center w-full bg-gray-800">
+    <footer class="flex justify-between items-center text-white max-w-5xl w-full h-16">
       <h2 class="">ROOT SESSIONS</h2>
-        <ul class="flex text-4xl">
-          <li class="px-4"><a class="" href="#"><i class="fab fa-twitter-square"></i></a></li>
-          <li class="px-4"><a class="" href="#"><i class="fab fa-instagram-square"></i></a></li>
-          <li class="pl-4"><a class="" href="#"><i class="fab fa-facebook-square"></i></a></li>
-        </ul>
+      <ul class="flex text-4xl">
+        <li class="px-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li class="px-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-instagram-square"></i></a></li>
+        <li class="pl-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-facebook-square"></i></a></li>
+      </ul>
     </footer>
+  </div>
     <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>

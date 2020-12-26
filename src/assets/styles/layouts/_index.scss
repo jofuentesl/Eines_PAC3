@@ -1,0 +1,31 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.festival__place--style,
+.festival__timetable--style {
+  font-family: $font-famil-bold;
+}
+
+.festival__name--style {
+  font-family: $font-famil-bold;
+  font-size: 3rem;
+}
+
+.festival__groups--style {
+  font-family: $font-family-groups;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.festival__group__ska {
+  @include rotate(#f00, -5deg);
+}
+ 
+.festival__group__toots {
+  @include rotate(#008f39, 2deg);
+}
+
+.festival__group__lauren {
+  @include rotate(#ff0, -3deg);
+}

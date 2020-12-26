@@ -5,7 +5,9 @@
 @tailwind components;
 
 @import "variables";
+@import "mixins";
 @import "fonts";
+@import "layouts/index";
 
 /**
  * Import npm dependencies
