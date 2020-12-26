@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+
 .festival__place--style,
 .festival__timetable--style {
   font-family: $font-famil-bold;
@@ -9,12 +10,12 @@ body {
 
 .festival__name--style {
   font-family: $font-famil-bold;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .festival__groups--style {
   font-family: $font-family-groups;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -28,4 +29,22 @@ body {
 
 .festival__group__lauren {
   @include rotate(#ff0, -3deg);
+}
+ .font__awesome--style {
+   margin-right: 10px;
+ }
+.block__mobile__hidden {
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+  .festival__name--style, .festival__groups--style {
+    font-size: 3.5rem;
+  }
+  .block__mobile__hidden {
+    display: block;
+  }
+  .block__desktop__hidden {
+    display: none;
+  }
 }

@@ -9,17 +9,17 @@
     <title>Eines 2 - PAC3 - Jordi Fuentes</title>
   </head>
   <body class="h-screen flex flex-col justify-between items-center">
-    <header class="flex justify-between max-w-5xl w-full mt-4">
-        <img class="h-20 w-20" src="assets/images/roots_sessions.svg"/>
-        <nav class="flex items-center ">
-        <a class="px-4 hover:text-yellow-500 uppercase" href="#">Inicio</a>
-        <a class="px-4 hover:text-yellow-500 uppercase" href="#">Grupos</a>
-        <a class="px-4 hover:text-yellow-500 uppercase" href="#">Noticias</a>
-        <a class="pl-4 hover:text-yellow-500 uppercase" href="#">Contacto</a>
+    <header class="flex flex-col items-center sm:flex sm:flex-row sm:justify-between max-w-5xl w-full mt-4">
+        <a href="index.html"><img class="h-20 w-20" src="assets/images/roots_sessions.svg"/></a>
+        <nav class="flex w-full justify-between px-4 mt-4 sm:flex sm:justify-end sm:items-center sm:mt-0 sm:px-0">
+        <a class="sm:px-4 hover:text-yellow-500 uppercase text-yellow-500" href="index.html">Inicio</a>
+        <a class="sm:px-4 hover:text-yellow-500 uppercase" href="grupos.html">Grupos</a>
+        <a class="sm:px-4 hover:text-yellow-500 uppercase" href="#">Noticias</a>
+        <a class=" hover:text-yellow-500 uppercase" href="#">Contacto</a>
         </nav>
       </div>
     </header>
-    <main class="h-full max-w-5xl w-full">
+    <main class="h-full mx-4 sm:max-w-5xl sm:w-full">
       <div class="flex flex-col justify-between h-full">
         <div class="flex justify-between festival__place mt-6">
           <div class="festival__place--style">
@@ -31,7 +31,7 @@
         </div>
         <div class="flex flex-col items-center w-full block__festival block__festival__name">
           <div class="festival__name">
-            <h1 class="festival__name--style tracking-widest"><i class="fab fa-redhat font__awesome--style"></i>reggea festival</h1>
+            <h1 class="festival__name--style"><i class="fab fa-redhat font__awesome--style"></i>reggea festival</h1>
           </div>
           <div class="festival__groups mt-6">
             <p class="festival__group__ska festival__groups--style">The skatalites</p>
@@ -44,8 +44,11 @@
           </div>
         </div>
         <div class="flex justify-between w-full festival__timetable--style mb-4">
-          <div>
+          <div class="block__mobile__hidden">
            <p><i class="fas fa-clock font__awesome--style"></i>A partir de las 21:00h</p>
+          </div>
+          <div class="block__desktop__hidden">
+           <p><i class="fas fa-clock font__awesome--style"></i>21:00h</p>
           </div>
           <div>
             <p><i class="fas fa-map-marker-alt font__awesome--style"></i>Pavellón Vall d'Hebron </p>
@@ -55,11 +58,11 @@
     </main>
     <div class="flex justify-center w-full bg-gray-800">
     <footer class="flex justify-between items-center text-white max-w-5xl w-full h-16">
-      <h2 class="">ROOT SESSIONS</h2>
-      <ul class="flex text-4xl">
-        <li class="px-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-twitter-square"></i></a></li>
-        <li class="px-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-instagram-square"></i></a></li>
-        <li class="pl-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-facebook-square"></i></a></li>
+      <h2 class="text-xl font-black ml-4 sm:ml-0">ROOT SESSIONS</h2>
+      <ul class="flex text-4xl pr-4;">
+        <li class="pr-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li class="pr-4 hover:text-yellow-500"><a class="" href="#"><i class="fab fa-instagram-square"></i></a></li>
+        <li class="pr-4 hover:text-yellow-500 sm:pr-0"><a class="" href="#"><i class="fab fa-facebook-square"></i></a></li>
       </ul>
     </footer>
   </div>
