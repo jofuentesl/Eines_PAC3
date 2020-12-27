@@ -28,6 +28,8 @@ module.exports = {
       ],
       "string-quotes": "double",
       "color-named": "never",
+      "declaration-block-trailing-semicolon": null,
+      "no-descending-specificity": null,
       //Customs rules according Code Guide by @mdo
       "selector-list-comma-newline-after": "always",
       "selector-list-comma-newline-before": "never-multi-line",
