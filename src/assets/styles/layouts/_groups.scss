@@ -1,12 +1,7 @@
-@tailwind base;
-@tailwind components;
-
 .block__group__name--style {
   @apply text-xl font-black my-4;
 }
 
 .block__buttons--style {
-    @apply inline-block px-6 py-2 my-6 text-xs font-medium leading-6 text-center text-white uppercase transition bg-yellow-500 rounded-full shadow hover:shadow-lg hover:bg-yellow-125 focus:outline-none;
-}  
-
-@tailwind utilities;
+  @apply inline-block px-6 py-2 my-6 text-xs font-medium leading-6 text-center text-white uppercase transition bg-yellow-500 rounded-full shadow hover:shadow-lg hover:bg-yellow-600 focus:outline-none;
+}

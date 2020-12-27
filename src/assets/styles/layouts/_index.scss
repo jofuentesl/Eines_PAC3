@@ -38,6 +38,10 @@ body {
   display: none;
 }
 
+.block__rrss--style {
+  @apply pr-4 hover:text-yellow-500;
+}
+
 @media only screen and (min-width: 640px) {
   .festival__name--style,
   .festival__groups--style {
